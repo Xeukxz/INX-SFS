@@ -1,0 +1,86 @@
+@font-face {
+  font-family: Future Earth;
+  src: url(future_earth/Future\ Earth\ v2.ttf);
+}
+
+* {
+  font-family: Future Earth;
+  color: white;
+  margin: 0;
+  position:absolute;
+}
+
+body {
+  --widthAndHeight: 500px;
+  background-color: black;
+}
+
+#invisithing {
+  position: absolute;
+  width: 50%;
+  height: 100px;
+  background-color: blue;
+}
+
+circle {
+  position: absolute;
+  left: 500px;
+  top: 500px;
+  transform: translate(-50%, -50%);
+  border: 1px solid white;
+  width: var(--widthAndHeight);
+  height: var(--widthAndHeight);
+  border-radius: 100%;
+}
+
+circle2 {
+  position: absolute;
+  background-color: white;
+  width: 50px;
+  height: 50px;
+  transform: translate(-50%,-50%);
+  border-radius: 100%;
+}
+
+info {
+  width: 200px;
+/*   border-right: 1px solid white;
+  border-bottom: 1px solid white; */
+  font-size: 9px;
+}
+
+#infoName {
+  position: relative;
+  float: left;
+  text-align: right;
+}
+
+#infoCount {
+  position: relative;
+  float: left;
+  margin-left: 5px;
+}
+
+#infoCountUnits {
+  position: relative;
+  float: right;
+  text-align: right;
+}
+
+/* zoom {
+  background-color: rgba(47, 47, 114, 0.411);
+  overflow-y:scroll;
+}
+
+*::-webkit-scrollbar-track {
+  background-color: black;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: rgb(0, 0, 0);
+}
+
+#zoomListener {
+  position: relative;
+  height: 110%;
+} */
